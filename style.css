@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
+
+.container{
+    position: absolute;
+    margin-top: 4rem;
+    padding: 40px 120px 0px 120px;
+    border-radius: 5px;
+    background-color: white;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-top: 1em;
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+.google{
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+
+    
+}
+
+button{
+    width: 98%;
+    padding: 10px 5px;
+    margin-top: 1em;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    border: 1px solid #999;
+    background-color: white;
+}
+
+.sign-in-to-google img{
+    width: 20px;
+    margin-right: 7px;  
+}
+
+.sign-in-to-google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 0rem; 
+}
+
+.sign-in-to-apple{
+    margin-top: 0em;
+    margin-bottom: 1rem; 
+
+}
+i{
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+input{
+    padding: 15px 10px 15px 10px;
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 18px;
+}
+
+.next{
+    background-color: black;
+    color: white;
+    margin-top: 1.5rem;
+}
+.forget{
+    background-color: white;
+}
+
+.google hr{
+    border: 0;
+    height: 1px;
+    background: #c2c2c2;
+    margin: 5px;
+
+}
+
+.google span{
+    display: block;
+    width: 40px;
+    margin: auto;
+    background: #fff;
+    font-size: 14px;
+    margin-top: -16px;
+}
+a{
+    text-decoration: none;
+    color: rgb(38, 235, 235);
+}
+
